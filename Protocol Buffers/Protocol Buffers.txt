@@ -1,0 +1,20 @@
+--> Protocolo de serialização de dados, ou seja, conversão em bytes para transporte e armazenamento.
+--> Pode ser feito em várias linguagens de programação
+--> Produz-se uma representação binária de dados que é menor que JSON ou XML, o que gera redução da banda de rede usada e processamento de dados mais eficiente.
+--> API -> Contrato entre cliente e servidor em que ambos aceitam o formato de transmissão e recebimento de dados
+Funcionamento:
+--> Define-se o tipo de estrutura de dados em um arquivo .proto, define-se o schema nesse arquivo, ou seja, a estrutura e as regras do conjunto de dados
+--> Uso do compliador de Protocolo para gerar código base em várias linguagens de programação, código base que serializa ou desserializa os dados
+--> Tendo esse código, pode-se converter os dados para bytes
+
+Estrutura básica:
+
+syntax = "proto3"
+package example;
+// Message definition
+message Person {
+    string name = 1; // todos os campos são opcionais
+    int32 id = 2;
+    string email = 3;
+}
+--> A palavra repeated na frente
