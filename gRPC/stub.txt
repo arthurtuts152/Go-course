@@ -1,0 +1,5 @@
+--> Parte de código que substitui um procedimento temporariamente
+--> Simula o funcionamento de módulos complexos ainda não implementados
+--> Stub no contexto de RPC trabalha como um proxy que cuida dos detalhes de comunicação entre redes, permitindo que o cliente chame procedimento no servidor como se fossem procedimentos locais
+--> Stud do lado do cliente - códifo que representa o procedimento remoto, fornece a mesma interface do procedimento mas lida com os detalhes chatos de comunicação de redes
+--> 

@@ -1,0 +1,6 @@
+RPC - Remote Procedure Calls 
+--> Protocolo que permite que um programa execute um procedimento, simplificando a comunicação entre sistemas distribuidos, sem se preocupar com problemas de comunicação
+--> grpc é um framework open source que usa http2 para transporte de informações, com autenticação, load balancing
+--> Uso de Protocol Buffers para definir estrutura de mensagens e serviços, assegurando type safety e reduzindo erros
+--> Uso de um arquivo .proto para definir o serviço e os métodos, uso de um compilador de proto para gerar o código na linguagem de programação desejada
+--> O servidor recebe as requests feitas pelo cliente que faz as chamadas para os métodos do servidor usando o código gerado pelo compilador de proto
